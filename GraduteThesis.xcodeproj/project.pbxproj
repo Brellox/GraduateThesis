@@ -7,15 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9B73937ECB91A3E9C82C13 /* Pods_GraduteThesis_GraduteThesisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15917DB8E78714517298C8D /* Pods_GraduteThesis_GraduteThesisUITests.framework */; };
+		3D0804A02852D84100BB86C7 /* CloudTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08049F2852D84100BB86C7 /* CloudTagView.swift */; };
+		3D0804A42854607300BB86C7 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0804A32854607100BB86C7 /* Answer.swift */; };
+		3D0804A82854B51900BB86C7 /* AnswerApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0804A72854B51900BB86C7 /* AnswerApiModule.swift */; };
+		3D0804AA2854B56B00BB86C7 /* AnswerApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0804A92854B56B00BB86C7 /* AnswerApiDelegate.swift */; };
+		3D09CB2B2854D0590036868C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D09CB2A2854D0590036868C /* R.generated.swift */; };
+		3D6E93292847C8BA00C4674A /* TaskAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E93282847C8BA00C4674A /* TaskAnswerViewController.swift */; };
+		3DB1EB942854C51F00F6988A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1EB932854C51F00F6988A /* Task.swift */; };
+		3DBDAD42284B96560091CFA8 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD41284B96560091CFA8 /* UIViewControllerExtension.swift */; };
+		3DBDAD45284BA39C0091CFA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DBDAD44284BA39C0091CFA8 /* GoogleService-Info.plist */; };
+		3DBDAD50284CE3E00091CFA8 /* ExamApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD4F284CE3E00091CFA8 /* ExamApiModule.swift */; };
+		3DBDAD52284CE4B20091CFA8 /* ExamApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD51284CE4B20091CFA8 /* ExamApiDelegate.swift */; };
+		3DBDAD57284D15940091CFA8 /* AddExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD56284D15940091CFA8 /* AddExamViewController.swift */; };
+		3DBDAD59284D15A30091CFA8 /* AddExamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD58284D15A30091CFA8 /* AddExamPresenter.swift */; };
+		3DBDAD5B284D15B40091CFA8 /* AddExamInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD5A284D15B40091CFA8 /* AddExamInteractor.swift */; };
+		3DBDAD5D284D15C00091CFA8 /* AddExamRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD5C284D15C00091CFA8 /* AddExamRouter.swift */; };
+		3DBDAD60284D15D70091CFA8 /* AddExamConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD5F284D15D70091CFA8 /* AddExamConfigurator.swift */; };
+		3DBDAD62284D15E70091CFA8 /* AddExamConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD61284D15E70091CFA8 /* AddExamConfiguratorProtocol.swift */; };
+		3DBDAD64284D15F50091CFA8 /* AddExamRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD63284D15F50091CFA8 /* AddExamRouterProtocol.swift */; };
+		3DBDAD66284D16030091CFA8 /* AddExamInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD65284D16030091CFA8 /* AddExamInteractorProtocol.swift */; };
+		3DBDAD68284D16130091CFA8 /* AddExamPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD67284D16130091CFA8 /* AddExamPresenterProtocol.swift */; };
+		3DBDAD6A284D16240091CFA8 /* AddExamViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD69284D16240091CFA8 /* AddExamViewProtocol.swift */; };
+		3DBDAD6C284D17BB0091CFA8 /* AlterExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD6B284D17BB0091CFA8 /* AlterExamViewController.swift */; };
+		3DBDAD6E284D17D30091CFA8 /* AlterExamInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD6D284D17D30091CFA8 /* AlterExamInteractor.swift */; };
+		3DBDAD70284D17E70091CFA8 /* AlterExamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD6F284D17E70091CFA8 /* AlterExamPresenter.swift */; };
+		3DBDAD72284D17FF0091CFA8 /* AlterExamRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD71284D17FF0091CFA8 /* AlterExamRouter.swift */; };
+		3DBDAD74284D18100091CFA8 /* AlterExamConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD73284D18100091CFA8 /* AlterExamConfigurator.swift */; };
+		3DBDAD77284D18290091CFA8 /* AlterExamViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD76284D18290091CFA8 /* AlterExamViewProtocol.swift */; };
+		3DBDAD79284D18380091CFA8 /* AlterExamInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD78284D18380091CFA8 /* AlterExamInteractorProtocol.swift */; };
+		3DBDAD7B284D18490091CFA8 /* AlterExamPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD7A284D18490091CFA8 /* AlterExamPresenterProtocol.swift */; };
+		3DBDAD7D284D18540091CFA8 /* AlterExamRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD7C284D18540091CFA8 /* AlterExamRouterProtocol.swift */; };
+		3DBDAD7F284D18610091CFA8 /* AlterExamConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD7E284D18610091CFA8 /* AlterExamConfiguratorProtocol.swift */; };
+		3DBDAD81284D187C0091CFA8 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD80284D187C0091CFA8 /* AnswersViewController.swift */; };
+		3DBDAD83284D18A70091CFA8 /* AnswersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD82284D18A70091CFA8 /* AnswersInteractor.swift */; };
+		3DBDAD85284D18B40091CFA8 /* AnswersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD84284D18B40091CFA8 /* AnswersPresenter.swift */; };
+		3DBDAD87284D18BD0091CFA8 /* AnswersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD86284D18BD0091CFA8 /* AnswersRouter.swift */; };
+		3DBDAD89284D18CA0091CFA8 /* AnswersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD88284D18CA0091CFA8 /* AnswersConfigurator.swift */; };
+		3DBDAD8C284D18FB0091CFA8 /* AnswersViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD8B284D18FB0091CFA8 /* AnswersViewProtocol.swift */; };
+		3DBDAD8E284D190A0091CFA8 /* AnswersInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD8D284D190A0091CFA8 /* AnswersInteractorProtocol.swift */; };
+		3DBDAD90284D19160091CFA8 /* AnswersPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD8F284D19160091CFA8 /* AnswersPresenterProtocol.swift */; };
+		3DBDAD92284D19220091CFA8 /* AnswersRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD91284D19220091CFA8 /* AnswersRouterProtocol.swift */; };
+		3DBDAD94284D192F0091CFA8 /* AnswersConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD93284D192F0091CFA8 /* AnswersConfiguratorProtocol.swift */; };
+		3DBDAD97284D2CFC0091CFA8 /* DatePickerPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD96284D2CFC0091CFA8 /* DatePickerPopupViewController.swift */; };
+		3DBDAD99284D2D100091CFA8 /* DatePickerPopUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD98284D2D100091CFA8 /* DatePickerPopUpInteractor.swift */; };
+		3DBDAD9B284D2D1B0091CFA8 /* DatePickerPopUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD9A284D2D1B0091CFA8 /* DatePickerPopUpPresenter.swift */; };
+		3DBDAD9D284D2D2A0091CFA8 /* DatePickerPopUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD9C284D2D2A0091CFA8 /* DatePickerPopUpRouter.swift */; };
+		3DBDAD9F284D2D340091CFA8 /* DatePickerPopUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDAD9E284D2D340091CFA8 /* DatePickerPopUpConfigurator.swift */; };
+		3DBDADA2284D2D4B0091CFA8 /* DatePickerPopupViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADA1284D2D4B0091CFA8 /* DatePickerPopupViewControllerProtocol.swift */; };
+		3DBDADA4284D2D5A0091CFA8 /* DatePickerPopUpInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADA3284D2D5A0091CFA8 /* DatePickerPopUpInteractorProtocol.swift */; };
+		3DBDADA6284D2D700091CFA8 /* DatePickerPopUpPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADA5284D2D700091CFA8 /* DatePickerPopUpPresenterProtocol.swift */; };
+		3DBDADA8284D2D7E0091CFA8 /* DatePickerPopUpRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADA7284D2D7E0091CFA8 /* DatePickerPopUpRouterProtocol.swift */; };
+		3DBDADAA284D2DA00091CFA8 /* DatePickerPopUpConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADA9284D2DA00091CFA8 /* DatePickerPopUpConfiguratorProtocol.swift */; };
+		3DBDADAC284D31DB0091CFA8 /* DatePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADAB284D31DA0091CFA8 /* DatePickerDelegate.swift */; };
+		3DBDADAE284D4CF10091CFA8 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADAD284D4CF00091CFA8 /* Group.swift */; };
+		3DBDADB0284D4D710091CFA8 /* AddExamApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADAF284D4D710091CFA8 /* AddExamApiModule.swift */; };
+		3DBDADB2284D4D7E0091CFA8 /* AddExamApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB1284D4D7E0091CFA8 /* AddExamApiDelegate.swift */; };
+		3DBDADC0284D5E450091CFA8 /* PickerPopUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB4284D5E450091CFA8 /* PickerPopUpConfigurator.swift */; };
+		3DBDADC1284D5E450091CFA8 /* PickerPopUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB5284D5E450091CFA8 /* PickerPopUpRouter.swift */; };
+		3DBDADC2284D5E450091CFA8 /* PickerPopUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB6284D5E450091CFA8 /* PickerPopUpPresenter.swift */; };
+		3DBDADC3284D5E450091CFA8 /* PickerPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB7284D5E450091CFA8 /* PickerPopupViewController.swift */; };
+		3DBDADC4284D5E450091CFA8 /* PickerPopupViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADB9284D5E450091CFA8 /* PickerPopupViewControllerProtocol.swift */; };
+		3DBDADC5284D5E450091CFA8 /* PickerPopUpInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBA284D5E450091CFA8 /* PickerPopUpInteractorProtocol.swift */; };
+		3DBDADC6284D5E450091CFA8 /* PickerPopUpRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBB284D5E450091CFA8 /* PickerPopUpRouterProtocol.swift */; };
+		3DBDADC7284D5E450091CFA8 /* PickerPopUpPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBC284D5E450091CFA8 /* PickerPopUpPresenterProtocol.swift */; };
+		3DBDADC8284D5E450091CFA8 /* PickerPopUpConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBD284D5E450091CFA8 /* PickerPopUpConfiguratorProtocol.swift */; };
+		3DBDADC9284D5E450091CFA8 /* PickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBE284D5E450091CFA8 /* PickerDelegate.swift */; };
+		3DBDADCA284D5E450091CFA8 /* PickerPopUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDADBF284D5E450091CFA8 /* PickerPopUpInteractor.swift */; };
 		3DF9B3572831848A002EDFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3562831848A002EDFB5 /* AppDelegate.swift */; };
 		3DF9B3592831848A002EDFB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3582831848A002EDFB5 /* SceneDelegate.swift */; };
-		3DF9B35B2831848A002EDFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B35A2831848A002EDFB5 /* ViewController.swift */; };
+		3DF9B35B2831848A002EDFB5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B35A2831848A002EDFB5 /* ShareViewController.swift */; };
 		3DF9B35E2831848A002EDFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B35C2831848A002EDFB5 /* Main.storyboard */; };
 		3DF9B3602831848C002EDFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B35F2831848C002EDFB5 /* Assets.xcassets */; };
 		3DF9B3632831848C002EDFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B3612831848C002EDFB5 /* LaunchScreen.storyboard */; };
 		3DF9B36E2831848D002EDFB5 /* GraduteThesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B36D2831848D002EDFB5 /* GraduteThesisTests.swift */; };
 		3DF9B3782831848D002EDFB5 /* GraduteThesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3772831848D002EDFB5 /* GraduteThesisUITests.swift */; };
 		3DF9B37A2831848D002EDFB5 /* GraduteThesisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3792831848D002EDFB5 /* GraduteThesisUITestsLaunchTests.swift */; };
+		3DF9B3D128318586002EDFB5 /* ExamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B38828318586002EDFB5 /* ExamTableViewCell.swift */; };
+		3DF9B3D228318586002EDFB5 /* ExamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B38928318586002EDFB5 /* ExamTableViewCell.xib */; };
+		3DF9B3D328318586002EDFB5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B38C28318586002EDFB5 /* StorageManager.swift */; };
+		3DF9B3D428318586002EDFB5 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B38D28318586002EDFB5 /* KeyConstants.swift */; };
+		3DF9B3D528318586002EDFB5 /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B38E28318586002EDFB5 /* MainData.swift */; };
+		3DF9B3D628318586002EDFB5 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39028318586002EDFB5 /* RequestManager.swift */; };
+		3DF9B3D728318586002EDFB5 /* AuthApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39228318586002EDFB5 /* AuthApiModule.swift */; };
+		3DF9B3D828318586002EDFB5 /* RequestInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39428318586002EDFB5 /* RequestInit.swift */; };
+		3DF9B3D928318586002EDFB5 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39528318586002EDFB5 /* DataType.swift */; };
+		3DF9B3DA28318586002EDFB5 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39628318586002EDFB5 /* ResponseType.swift */; };
+		3DF9B3DB28318586002EDFB5 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39728318586002EDFB5 /* ImageUploader.swift */; };
+		3DF9B3DC28318586002EDFB5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39828318586002EDFB5 /* APIClient.swift */; };
+		3DF9B3DD28318586002EDFB5 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39A28318586002EDFB5 /* AnyError.swift */; };
+		3DF9B3DE28318586002EDFB5 /* ResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39B28318586002EDFB5 /* ResponseMessage.swift */; };
+		3DF9B3DF28318586002EDFB5 /* AuthApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39D28318586002EDFB5 /* AuthApiDelegate.swift */; };
+		3DF9B3E028318586002EDFB5 /* RequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39E28318586002EDFB5 /* RequestDelegate.swift */; };
+		3DF9B3E128318586002EDFB5 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B39F28318586002EDFB5 /* SocketClient.swift */; };
+		3DF9B3E228318586002EDFB5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A228318586002EDFB5 /* UIViewExtension.swift */; };
+		3DF9B3E328318586002EDFB5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A328318586002EDFB5 /* StringExtension.swift */; };
+		3DF9B3E428318586002EDFB5 /* LogInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A628318586002EDFB5 /* LogInInteractor.swift */; };
+		3DF9B3E528318586002EDFB5 /* LogInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A728318586002EDFB5 /* LogInConfigurator.swift */; };
+		3DF9B3E628318586002EDFB5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A828318586002EDFB5 /* LogInViewController.swift */; };
+		3DF9B3E728318586002EDFB5 /* LogInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3A928318586002EDFB5 /* LogInPresenter.swift */; };
+		3DF9B3E828318586002EDFB5 /* LogInRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3AB28318586002EDFB5 /* LogInRouterProtocol.swift */; };
+		3DF9B3E928318587002EDFB5 /* LogInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3AC28318586002EDFB5 /* LogInPresenterProtocol.swift */; };
+		3DF9B3EA28318587002EDFB5 /* LogInInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3AD28318586002EDFB5 /* LogInInteractorProtocol.swift */; };
+		3DF9B3EB28318587002EDFB5 /* LogInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3AE28318586002EDFB5 /* LogInViewProtocol.swift */; };
+		3DF9B3EC28318587002EDFB5 /* LogInConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3AF28318586002EDFB5 /* LogInConfiguratorProtocol.swift */; };
+		3DF9B3ED28318587002EDFB5 /* LogInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3B028318586002EDFB5 /* LogInRouter.swift */; };
+		3DF9B3F828318587002EDFB5 /* ExamListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3BE28318586002EDFB5 /* ExamListPresenter.swift */; };
+		3DF9B3F928318587002EDFB5 /* ExamListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3BF28318586002EDFB5 /* ExamListInteractor.swift */; };
+		3DF9B3FA28318587002EDFB5 /* ExamListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C028318586002EDFB5 /* ExamListRouter.swift */; };
+		3DF9B3FB28318587002EDFB5 /* ExamListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C128318586002EDFB5 /* ExamListConfigurator.swift */; };
+		3DF9B3FC28318587002EDFB5 /* ExamListConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C328318586002EDFB5 /* ExamListConfiguratorProtocol.swift */; };
+		3DF9B3FD28318587002EDFB5 /* ExamListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C428318586002EDFB5 /* ExamListInteractorProtocol.swift */; };
+		3DF9B3FE28318587002EDFB5 /* ExamListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C528318586002EDFB5 /* ExamListRouterProtocol.swift */; };
+		3DF9B3FF28318587002EDFB5 /* ExamListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C628318586002EDFB5 /* ExamListPresenterProtocol.swift */; };
+		3DF9B40028318587002EDFB5 /* ExamListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C728318586002EDFB5 /* ExamListViewProtocol.swift */; };
+		3DF9B40128318587002EDFB5 /* ExamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3C828318586002EDFB5 /* ExamListViewController.swift */; };
+		3DF9B40228318587002EDFB5 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CA28318586002EDFB5 /* MessageEntity.swift */; };
+		3DF9B40328318587002EDFB5 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CB28318586002EDFB5 /* Teacher.swift */; };
+		3DF9B40428318587002EDFB5 /* Discipline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CC28318586002EDFB5 /* Discipline.swift */; };
+		3DF9B40528318587002EDFB5 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CD28318586002EDFB5 /* Ticket.swift */; };
+		3DF9B40628318587002EDFB5 /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CE28318586002EDFB5 /* Exam.swift */; };
+		3DF9B40728318587002EDFB5 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3CF28318586002EDFB5 /* Account.swift */; };
+		3DF9B40828318587002EDFB5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B3D028318586002EDFB5 /* Student.swift */; };
+		3DF9B4142832DDA6002EDFB5 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B4122832DDA5002EDFB5 /* AnswerTableViewCell.swift */; };
+		3DF9B4152832DDA6002EDFB5 /* AnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B4132832DDA5002EDFB5 /* AnswerTableViewCell.xib */; };
+		3DF9B41B2832E346002EDFB5 /* ExamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9B41A2832E346002EDFB5 /* ExamButton.swift */; };
+		3DF9B41E2832E366002EDFB5 /* ExamButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF9B41D2832E366002EDFB5 /* ExamButton.xib */; };
+		94B5DE477DD049A31200E1EE /* Pods_GraduteThesisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBEAF648FBFA40186387A8A /* Pods_GraduteThesisTests.framework */; };
+		C0B5021BC084E445A3B9A13D /* Pods_GraduteThesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C4863DFAADA80D383E191 /* Pods_GraduteThesis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +155,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		364C4863DFAADA80D383E191 /* Pods_GraduteThesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraduteThesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08049F2852D84100BB86C7 /* CloudTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTagView.swift; sourceTree = "<group>"; };
+		3D0804A32854607100BB86C7 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		3D0804A72854B51900BB86C7 /* AnswerApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerApiModule.swift; sourceTree = "<group>"; };
+		3D0804A92854B56B00BB86C7 /* AnswerApiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerApiDelegate.swift; sourceTree = "<group>"; };
+		3D09CB2A2854D0590036868C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		3D6E93282847C8BA00C4674A /* TaskAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnswerViewController.swift; sourceTree = "<group>"; };
+		3DB1EB932854C51F00F6988A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3DBDAD41284B96560091CFA8 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		3DBDAD43284BA2E10091CFA8 /* GraduteThesis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraduteThesis.entitlements; sourceTree = "<group>"; };
+		3DBDAD44284BA39C0091CFA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DBDAD4F284CE3E00091CFA8 /* ExamApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamApiModule.swift; sourceTree = "<group>"; };
+		3DBDAD51284CE4B20091CFA8 /* ExamApiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamApiDelegate.swift; sourceTree = "<group>"; };
+		3DBDAD56284D15940091CFA8 /* AddExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamViewController.swift; sourceTree = "<group>"; };
+		3DBDAD58284D15A30091CFA8 /* AddExamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamPresenter.swift; sourceTree = "<group>"; };
+		3DBDAD5A284D15B40091CFA8 /* AddExamInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamInteractor.swift; sourceTree = "<group>"; };
+		3DBDAD5C284D15C00091CFA8 /* AddExamRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamRouter.swift; sourceTree = "<group>"; };
+		3DBDAD5F284D15D70091CFA8 /* AddExamConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamConfigurator.swift; sourceTree = "<group>"; };
+		3DBDAD61284D15E70091CFA8 /* AddExamConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD63284D15F50091CFA8 /* AddExamRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamRouterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD65284D16030091CFA8 /* AddExamInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD67284D16130091CFA8 /* AddExamPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD69284D16240091CFA8 /* AddExamViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamViewProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD6B284D17BB0091CFA8 /* AlterExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamViewController.swift; sourceTree = "<group>"; };
+		3DBDAD6D284D17D30091CFA8 /* AlterExamInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamInteractor.swift; sourceTree = "<group>"; };
+		3DBDAD6F284D17E70091CFA8 /* AlterExamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamPresenter.swift; sourceTree = "<group>"; };
+		3DBDAD71284D17FF0091CFA8 /* AlterExamRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamRouter.swift; sourceTree = "<group>"; };
+		3DBDAD73284D18100091CFA8 /* AlterExamConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamConfigurator.swift; sourceTree = "<group>"; };
+		3DBDAD76284D18290091CFA8 /* AlterExamViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamViewProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD78284D18380091CFA8 /* AlterExamInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD7A284D18490091CFA8 /* AlterExamPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD7C284D18540091CFA8 /* AlterExamRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamRouterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD7E284D18610091CFA8 /* AlterExamConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterExamConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD80284D187C0091CFA8 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
+		3DBDAD82284D18A70091CFA8 /* AnswersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersInteractor.swift; sourceTree = "<group>"; };
+		3DBDAD84284D18B40091CFA8 /* AnswersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersPresenter.swift; sourceTree = "<group>"; };
+		3DBDAD86284D18BD0091CFA8 /* AnswersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersRouter.swift; sourceTree = "<group>"; };
+		3DBDAD88284D18CA0091CFA8 /* AnswersConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersConfigurator.swift; sourceTree = "<group>"; };
+		3DBDAD8B284D18FB0091CFA8 /* AnswersViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD8D284D190A0091CFA8 /* AnswersInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD8F284D19160091CFA8 /* AnswersPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD91284D19220091CFA8 /* AnswersRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersRouterProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD93284D192F0091CFA8 /* AnswersConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DBDAD96284D2CFC0091CFA8 /* DatePickerPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopupViewController.swift; sourceTree = "<group>"; };
+		3DBDAD98284D2D100091CFA8 /* DatePickerPopUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpInteractor.swift; sourceTree = "<group>"; };
+		3DBDAD9A284D2D1B0091CFA8 /* DatePickerPopUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpPresenter.swift; sourceTree = "<group>"; };
+		3DBDAD9C284D2D2A0091CFA8 /* DatePickerPopUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpRouter.swift; sourceTree = "<group>"; };
+		3DBDAD9E284D2D340091CFA8 /* DatePickerPopUpConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpConfigurator.swift; sourceTree = "<group>"; };
+		3DBDADA1284D2D4B0091CFA8 /* DatePickerPopupViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopupViewControllerProtocol.swift; sourceTree = "<group>"; };
+		3DBDADA3284D2D5A0091CFA8 /* DatePickerPopUpInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DBDADA5284D2D700091CFA8 /* DatePickerPopUpPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DBDADA7284D2D7E0091CFA8 /* DatePickerPopUpRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpRouterProtocol.swift; sourceTree = "<group>"; };
+		3DBDADA9284D2DA00091CFA8 /* DatePickerPopUpConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DBDADAB284D31DA0091CFA8 /* DatePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDelegate.swift; sourceTree = "<group>"; };
+		3DBDADAD284D4CF00091CFA8 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		3DBDADAF284D4D710091CFA8 /* AddExamApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamApiModule.swift; sourceTree = "<group>"; };
+		3DBDADB1284D4D7E0091CFA8 /* AddExamApiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExamApiDelegate.swift; sourceTree = "<group>"; };
+		3DBDADB4284D5E450091CFA8 /* PickerPopUpConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpConfigurator.swift; sourceTree = "<group>"; };
+		3DBDADB5284D5E450091CFA8 /* PickerPopUpRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpRouter.swift; sourceTree = "<group>"; };
+		3DBDADB6284D5E450091CFA8 /* PickerPopUpPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpPresenter.swift; sourceTree = "<group>"; };
+		3DBDADB7284D5E450091CFA8 /* PickerPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopupViewController.swift; sourceTree = "<group>"; };
+		3DBDADB9284D5E450091CFA8 /* PickerPopupViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopupViewControllerProtocol.swift; sourceTree = "<group>"; };
+		3DBDADBA284D5E450091CFA8 /* PickerPopUpInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DBDADBB284D5E450091CFA8 /* PickerPopUpRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpRouterProtocol.swift; sourceTree = "<group>"; };
+		3DBDADBC284D5E450091CFA8 /* PickerPopUpPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DBDADBD284D5E450091CFA8 /* PickerPopUpConfiguratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DBDADBE284D5E450091CFA8 /* PickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerDelegate.swift; sourceTree = "<group>"; };
+		3DBDADBF284D5E450091CFA8 /* PickerPopUpInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPopUpInteractor.swift; sourceTree = "<group>"; };
 		3DF9B3532831848A002EDFB5 /* GraduteThesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduteThesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF9B3562831848A002EDFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF9B3582831848A002EDFB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DF9B35A2831848A002EDFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF9B35A2831848A002EDFB5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		3DF9B35D2831848A002EDFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DF9B35F2831848C002EDFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF9B3622831848C002EDFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +236,64 @@
 		3DF9B3732831848D002EDFB5 /* GraduteThesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraduteThesisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF9B3772831848D002EDFB5 /* GraduteThesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduteThesisUITests.swift; sourceTree = "<group>"; };
 		3DF9B3792831848D002EDFB5 /* GraduteThesisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduteThesisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DF9B38828318586002EDFB5 /* ExamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamTableViewCell.swift; sourceTree = "<group>"; };
+		3DF9B38928318586002EDFB5 /* ExamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamTableViewCell.xib; sourceTree = "<group>"; };
+		3DF9B38C28318586002EDFB5 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		3DF9B38D28318586002EDFB5 /* KeyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		3DF9B38E28318586002EDFB5 /* MainData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		3DF9B39028318586002EDFB5 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		3DF9B39228318586002EDFB5 /* AuthApiModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApiModule.swift; sourceTree = "<group>"; };
+		3DF9B39428318586002EDFB5 /* RequestInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInit.swift; sourceTree = "<group>"; };
+		3DF9B39528318586002EDFB5 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		3DF9B39628318586002EDFB5 /* ResponseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		3DF9B39728318586002EDFB5 /* ImageUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		3DF9B39828318586002EDFB5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3DF9B39A28318586002EDFB5 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
+		3DF9B39B28318586002EDFB5 /* ResponseMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMessage.swift; sourceTree = "<group>"; };
+		3DF9B39D28318586002EDFB5 /* AuthApiDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApiDelegate.swift; sourceTree = "<group>"; };
+		3DF9B39E28318586002EDFB5 /* RequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDelegate.swift; sourceTree = "<group>"; };
+		3DF9B39F28318586002EDFB5 /* SocketClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
+		3DF9B3A228318586002EDFB5 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3DF9B3A328318586002EDFB5 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3DF9B3A628318586002EDFB5 /* LogInInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInInteractor.swift; sourceTree = "<group>"; };
+		3DF9B3A728318586002EDFB5 /* LogInConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInConfigurator.swift; sourceTree = "<group>"; };
+		3DF9B3A828318586002EDFB5 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3DF9B3A928318586002EDFB5 /* LogInPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPresenter.swift; sourceTree = "<group>"; };
+		3DF9B3AB28318586002EDFB5 /* LogInRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInRouterProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3AC28318586002EDFB5 /* LogInPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3AD28318586002EDFB5 /* LogInInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3AE28318586002EDFB5 /* LogInViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3AF28318586002EDFB5 /* LogInConfiguratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3B028318586002EDFB5 /* LogInRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInRouter.swift; sourceTree = "<group>"; };
+		3DF9B3BE28318586002EDFB5 /* ExamListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListPresenter.swift; sourceTree = "<group>"; };
+		3DF9B3BF28318586002EDFB5 /* ExamListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListInteractor.swift; sourceTree = "<group>"; };
+		3DF9B3C028318586002EDFB5 /* ExamListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListRouter.swift; sourceTree = "<group>"; };
+		3DF9B3C128318586002EDFB5 /* ExamListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListConfigurator.swift; sourceTree = "<group>"; };
+		3DF9B3C328318586002EDFB5 /* ExamListConfiguratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3C428318586002EDFB5 /* ExamListInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListInteractorProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3C528318586002EDFB5 /* ExamListRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListRouterProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3C628318586002EDFB5 /* ExamListPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListPresenterProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3C728318586002EDFB5 /* ExamListViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListViewProtocol.swift; sourceTree = "<group>"; };
+		3DF9B3C828318586002EDFB5 /* ExamListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamListViewController.swift; sourceTree = "<group>"; };
+		3DF9B3CA28318586002EDFB5 /* MessageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		3DF9B3CB28318586002EDFB5 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		3DF9B3CC28318586002EDFB5 /* Discipline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discipline.swift; sourceTree = "<group>"; };
+		3DF9B3CD28318586002EDFB5 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		3DF9B3CE28318586002EDFB5 /* Exam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		3DF9B3CF28318586002EDFB5 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3DF9B3D028318586002EDFB5 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3DF9B4122832DDA5002EDFB5 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		3DF9B4132832DDA5002EDFB5 /* AnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerTableViewCell.xib; sourceTree = "<group>"; };
+		3DF9B41A2832E346002EDFB5 /* ExamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamButton.swift; sourceTree = "<group>"; };
+		3DF9B41D2832E366002EDFB5 /* ExamButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExamButton.xib; sourceTree = "<group>"; };
+		61A428D77C98B32AE3A849F1 /* Pods-GraduteThesisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesisTests.debug.xcconfig"; path = "Target Support Files/Pods-GraduteThesisTests/Pods-GraduteThesisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D40B48B061B77D86C8DFD0D /* Pods-GraduteThesis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesis.release.xcconfig"; path = "Target Support Files/Pods-GraduteThesis/Pods-GraduteThesis.release.xcconfig"; sourceTree = "<group>"; };
+		87348D2879910E008DF16550 /* Pods-GraduteThesisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesisTests.release.xcconfig"; path = "Target Support Files/Pods-GraduteThesisTests/Pods-GraduteThesisTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1E9B0A60BF4316A0318CCF5 /* Pods-GraduteThesis-GraduteThesisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesis-GraduteThesisUITests.release.xcconfig"; path = "Target Support Files/Pods-GraduteThesis-GraduteThesisUITests/Pods-GraduteThesis-GraduteThesisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C15917DB8E78714517298C8D /* Pods_GraduteThesis_GraduteThesisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraduteThesis_GraduteThesisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD884FE71E2853E885E14B4F /* Pods-GraduteThesis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesis.debug.xcconfig"; path = "Target Support Files/Pods-GraduteThesis/Pods-GraduteThesis.debug.xcconfig"; sourceTree = "<group>"; };
+		D070605CCA90F45AA479DC29 /* Pods-GraduteThesis-GraduteThesisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduteThesis-GraduteThesisUITests.debug.xcconfig"; path = "Target Support Files/Pods-GraduteThesis-GraduteThesisUITests/Pods-GraduteThesis-GraduteThesisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBEAF648FBFA40186387A8A /* Pods_GraduteThesisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraduteThesisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +301,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B5021BC084E445A3B9A13D /* Pods_GraduteThesis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +309,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B5DE477DD049A31200E1EE /* Pods_GraduteThesisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +317,179 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9B73937ECB91A3E9C82C13 /* Pods_GraduteThesis_GraduteThesisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2116FCDFEBA2BFD1A4B787E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				364C4863DFAADA80D383E191 /* Pods_GraduteThesis.framework */,
+				C15917DB8E78714517298C8D /* Pods_GraduteThesis_GraduteThesisUITests.framework */,
+				EFBEAF648FBFA40186387A8A /* Pods_GraduteThesisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		260B6D79A2797CC1CDBB980C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD884FE71E2853E885E14B4F /* Pods-GraduteThesis.debug.xcconfig */,
+				7D40B48B061B77D86C8DFD0D /* Pods-GraduteThesis.release.xcconfig */,
+				D070605CCA90F45AA479DC29 /* Pods-GraduteThesis-GraduteThesisUITests.debug.xcconfig */,
+				A1E9B0A60BF4316A0318CCF5 /* Pods-GraduteThesis-GraduteThesisUITests.release.xcconfig */,
+				61A428D77C98B32AE3A849F1 /* Pods-GraduteThesisTests.debug.xcconfig */,
+				87348D2879910E008DF16550 /* Pods-GraduteThesisTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D6E93262847C89100C4674A /* TaskAnswer-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E93282847C8BA00C4674A /* TaskAnswerViewController.swift */,
+			);
+			path = "TaskAnswer-Module";
+			sourceTree = "<group>";
+		};
+		3D6E93272847C8A000C4674A /* Share-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B35A2831848A002EDFB5 /* ShareViewController.swift */,
+			);
+			path = "Share-Module";
+			sourceTree = "<group>";
+		};
+		3DBDAD53284D152C0091CFA8 /* AddExam-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD5E284D15C40091CFA8 /* protocols */,
+				3DBDAD56284D15940091CFA8 /* AddExamViewController.swift */,
+				3DBDAD58284D15A30091CFA8 /* AddExamPresenter.swift */,
+				3DBDAD5A284D15B40091CFA8 /* AddExamInteractor.swift */,
+				3DBDAD5C284D15C00091CFA8 /* AddExamRouter.swift */,
+				3DBDAD5F284D15D70091CFA8 /* AddExamConfigurator.swift */,
+			);
+			path = "AddExam-Module";
+			sourceTree = "<group>";
+		};
+		3DBDAD54284D15390091CFA8 /* AlterExam-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD75284D18150091CFA8 /* protocol */,
+				3DBDAD6B284D17BB0091CFA8 /* AlterExamViewController.swift */,
+				3DBDAD6D284D17D30091CFA8 /* AlterExamInteractor.swift */,
+				3DBDAD6F284D17E70091CFA8 /* AlterExamPresenter.swift */,
+				3DBDAD71284D17FF0091CFA8 /* AlterExamRouter.swift */,
+				3DBDAD73284D18100091CFA8 /* AlterExamConfigurator.swift */,
+			);
+			path = "AlterExam-Module";
+			sourceTree = "<group>";
+		};
+		3DBDAD55284D15570091CFA8 /* Answers-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD8A284D18CE0091CFA8 /* protocols */,
+				3DBDAD80284D187C0091CFA8 /* AnswersViewController.swift */,
+				3DBDAD82284D18A70091CFA8 /* AnswersInteractor.swift */,
+				3DBDAD84284D18B40091CFA8 /* AnswersPresenter.swift */,
+				3DBDAD86284D18BD0091CFA8 /* AnswersRouter.swift */,
+				3DBDAD88284D18CA0091CFA8 /* AnswersConfigurator.swift */,
+			);
+			path = "Answers-Module";
+			sourceTree = "<group>";
+		};
+		3DBDAD5E284D15C40091CFA8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD61284D15E70091CFA8 /* AddExamConfiguratorProtocol.swift */,
+				3DBDAD63284D15F50091CFA8 /* AddExamRouterProtocol.swift */,
+				3DBDAD65284D16030091CFA8 /* AddExamInteractorProtocol.swift */,
+				3DBDAD67284D16130091CFA8 /* AddExamPresenterProtocol.swift */,
+				3DBDAD69284D16240091CFA8 /* AddExamViewProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DBDAD75284D18150091CFA8 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD76284D18290091CFA8 /* AlterExamViewProtocol.swift */,
+				3DBDAD78284D18380091CFA8 /* AlterExamInteractorProtocol.swift */,
+				3DBDAD7A284D18490091CFA8 /* AlterExamPresenterProtocol.swift */,
+				3DBDAD7C284D18540091CFA8 /* AlterExamRouterProtocol.swift */,
+				3DBDAD7E284D18610091CFA8 /* AlterExamConfiguratorProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		3DBDAD8A284D18CE0091CFA8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDAD8B284D18FB0091CFA8 /* AnswersViewProtocol.swift */,
+				3DBDAD8D284D190A0091CFA8 /* AnswersInteractorProtocol.swift */,
+				3DBDAD8F284D19160091CFA8 /* AnswersPresenterProtocol.swift */,
+				3DBDAD91284D19220091CFA8 /* AnswersRouterProtocol.swift */,
+				3DBDAD93284D192F0091CFA8 /* AnswersConfiguratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DBDAD95284D2CD00091CFA8 /* DatePickerPopUp-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDADA0284D2D380091CFA8 /* protocols */,
+				3DBDAD96284D2CFC0091CFA8 /* DatePickerPopupViewController.swift */,
+				3DBDAD98284D2D100091CFA8 /* DatePickerPopUpInteractor.swift */,
+				3DBDAD9A284D2D1B0091CFA8 /* DatePickerPopUpPresenter.swift */,
+				3DBDAD9C284D2D2A0091CFA8 /* DatePickerPopUpRouter.swift */,
+				3DBDAD9E284D2D340091CFA8 /* DatePickerPopUpConfigurator.swift */,
+			);
+			path = "DatePickerPopUp-Module";
+			sourceTree = "<group>";
+		};
+		3DBDADA0284D2D380091CFA8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDADA1284D2D4B0091CFA8 /* DatePickerPopupViewControllerProtocol.swift */,
+				3DBDADA3284D2D5A0091CFA8 /* DatePickerPopUpInteractorProtocol.swift */,
+				3DBDADA5284D2D700091CFA8 /* DatePickerPopUpPresenterProtocol.swift */,
+				3DBDADA7284D2D7E0091CFA8 /* DatePickerPopUpRouterProtocol.swift */,
+				3DBDADA9284D2DA00091CFA8 /* DatePickerPopUpConfiguratorProtocol.swift */,
+				3DBDADAB284D31DA0091CFA8 /* DatePickerDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DBDADB3284D5E450091CFA8 /* PickerPopUp-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDADB4284D5E450091CFA8 /* PickerPopUpConfigurator.swift */,
+				3DBDADB5284D5E450091CFA8 /* PickerPopUpRouter.swift */,
+				3DBDADB6284D5E450091CFA8 /* PickerPopUpPresenter.swift */,
+				3DBDADBF284D5E450091CFA8 /* PickerPopUpInteractor.swift */,
+				3DBDADB7284D5E450091CFA8 /* PickerPopupViewController.swift */,
+				3DBDADB8284D5E450091CFA8 /* protocols */,
+			);
+			path = "PickerPopUp-Module";
+			sourceTree = "<group>";
+		};
+		3DBDADB8284D5E450091CFA8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDADB9284D5E450091CFA8 /* PickerPopupViewControllerProtocol.swift */,
+				3DBDADBA284D5E450091CFA8 /* PickerPopUpInteractorProtocol.swift */,
+				3DBDADBB284D5E450091CFA8 /* PickerPopUpRouterProtocol.swift */,
+				3DBDADBC284D5E450091CFA8 /* PickerPopUpPresenterProtocol.swift */,
+				3DBDADBD284D5E450091CFA8 /* PickerPopUpConfiguratorProtocol.swift */,
+				3DBDADBE284D5E450091CFA8 /* PickerDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		3DF9B34A2831848A002EDFB5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +497,8 @@
 				3DF9B36C2831848D002EDFB5 /* GraduteThesisTests */,
 				3DF9B3762831848D002EDFB5 /* GraduteThesisUITests */,
 				3DF9B3542831848A002EDFB5 /* Products */,
+				260B6D79A2797CC1CDBB980C /* Pods */,
+				2116FCDFEBA2BFD1A4B787E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +515,16 @@
 		3DF9B3552831848A002EDFB5 /* GraduteThesis */ = {
 			isa = PBXGroup;
 			children = (
+				3D09CB2A2854D0590036868C /* R.generated.swift */,
+				3DBDAD44284BA39C0091CFA8 /* GoogleService-Info.plist */,
+				3DBDAD43284BA2E10091CFA8 /* GraduteThesis.entitlements */,
+				3DF9B3A428318586002EDFB5 /* app-modules */,
+				3DF9B38628318586002EDFB5 /* common-ui */,
+				3DF9B3A028318586002EDFB5 /* common-utils */,
+				3DF9B3C928318586002EDFB5 /* entity */,
+				3DF9B38A28318586002EDFB5 /* services */,
 				3DF9B3562831848A002EDFB5 /* AppDelegate.swift */,
 				3DF9B3582831848A002EDFB5 /* SceneDelegate.swift */,
-				3DF9B35A2831848A002EDFB5 /* ViewController.swift */,
 				3DF9B35C2831848A002EDFB5 /* Main.storyboard */,
 				3DF9B35F2831848C002EDFB5 /* Assets.xcassets */,
 				3DF9B3612831848C002EDFB5 /* LaunchScreen.storyboard */,
@@ -127,6 +550,213 @@
 			path = GraduteThesisUITests;
 			sourceTree = "<group>";
 		};
+		3DF9B38628318586002EDFB5 /* common-ui */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B4182832E2F5002EDFB5 /* CustomViews */,
+				3DF9B38728318586002EDFB5 /* TableCells */,
+			);
+			path = "common-ui";
+			sourceTree = "<group>";
+		};
+		3DF9B38728318586002EDFB5 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B38828318586002EDFB5 /* ExamTableViewCell.swift */,
+				3DF9B38928318586002EDFB5 /* ExamTableViewCell.xib */,
+				3DF9B4122832DDA5002EDFB5 /* AnswerTableViewCell.swift */,
+				3DF9B4132832DDA5002EDFB5 /* AnswerTableViewCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		3DF9B38A28318586002EDFB5 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B38B28318586002EDFB5 /* localservice */,
+				3DF9B38F28318586002EDFB5 /* Networking */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		3DF9B38B28318586002EDFB5 /* localservice */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B38C28318586002EDFB5 /* StorageManager.swift */,
+				3DF9B38D28318586002EDFB5 /* KeyConstants.swift */,
+				3DF9B38E28318586002EDFB5 /* MainData.swift */,
+			);
+			path = localservice;
+			sourceTree = "<group>";
+		};
+		3DF9B38F28318586002EDFB5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B39028318586002EDFB5 /* RequestManager.swift */,
+				3DF9B39128318586002EDFB5 /* api-modules */,
+				3DF9B39328318586002EDFB5 /* Types */,
+				3DF9B39728318586002EDFB5 /* ImageUploader.swift */,
+				3DF9B39828318586002EDFB5 /* APIClient.swift */,
+				3DF9B39928318586002EDFB5 /* responseMessage */,
+				3DF9B39C28318586002EDFB5 /* protocols */,
+				3DF9B39F28318586002EDFB5 /* SocketClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3DF9B39128318586002EDFB5 /* api-modules */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B39228318586002EDFB5 /* AuthApiModule.swift */,
+				3DBDAD4F284CE3E00091CFA8 /* ExamApiModule.swift */,
+				3DBDADAF284D4D710091CFA8 /* AddExamApiModule.swift */,
+				3D0804A72854B51900BB86C7 /* AnswerApiModule.swift */,
+			);
+			path = "api-modules";
+			sourceTree = "<group>";
+		};
+		3DF9B39328318586002EDFB5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B39428318586002EDFB5 /* RequestInit.swift */,
+				3DF9B39528318586002EDFB5 /* DataType.swift */,
+				3DF9B39628318586002EDFB5 /* ResponseType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		3DF9B39928318586002EDFB5 /* responseMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B39A28318586002EDFB5 /* AnyError.swift */,
+				3DF9B39B28318586002EDFB5 /* ResponseMessage.swift */,
+			);
+			path = responseMessage;
+			sourceTree = "<group>";
+		};
+		3DF9B39C28318586002EDFB5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B39D28318586002EDFB5 /* AuthApiDelegate.swift */,
+				3DF9B39E28318586002EDFB5 /* RequestDelegate.swift */,
+				3DBDAD51284CE4B20091CFA8 /* ExamApiDelegate.swift */,
+				3DBDADB1284D4D7E0091CFA8 /* AddExamApiDelegate.swift */,
+				3D0804A92854B56B00BB86C7 /* AnswerApiDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DF9B3A028318586002EDFB5 /* common-utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3A128318586002EDFB5 /* extensioms */,
+			);
+			path = "common-utils";
+			sourceTree = "<group>";
+		};
+		3DF9B3A128318586002EDFB5 /* extensioms */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3A228318586002EDFB5 /* UIViewExtension.swift */,
+				3DF9B3A328318586002EDFB5 /* StringExtension.swift */,
+				3DBDAD41284B96560091CFA8 /* UIViewControllerExtension.swift */,
+			);
+			path = extensioms;
+			sourceTree = "<group>";
+		};
+		3DF9B3A428318586002EDFB5 /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDADB3284D5E450091CFA8 /* PickerPopUp-Module */,
+				3DBDAD95284D2CD00091CFA8 /* DatePickerPopUp-Module */,
+				3DBDAD55284D15570091CFA8 /* Answers-Module */,
+				3DBDAD54284D15390091CFA8 /* AlterExam-Module */,
+				3DBDAD53284D152C0091CFA8 /* AddExam-Module */,
+				3D6E93272847C8A000C4674A /* Share-Module */,
+				3D6E93262847C89100C4674A /* TaskAnswer-Module */,
+				3DF9B3A528318586002EDFB5 /* LogIn-Module */,
+				3DF9B3BD28318586002EDFB5 /* ExamList-Module */,
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		3DF9B3A528318586002EDFB5 /* LogIn-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3A828318586002EDFB5 /* LogInViewController.swift */,
+				3DF9B3A628318586002EDFB5 /* LogInInteractor.swift */,
+				3DF9B3A928318586002EDFB5 /* LogInPresenter.swift */,
+				3DF9B3B028318586002EDFB5 /* LogInRouter.swift */,
+				3DF9B3A728318586002EDFB5 /* LogInConfigurator.swift */,
+				3DF9B3AA28318586002EDFB5 /* protocols */,
+			);
+			path = "LogIn-Module";
+			sourceTree = "<group>";
+		};
+		3DF9B3AA28318586002EDFB5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3AE28318586002EDFB5 /* LogInViewProtocol.swift */,
+				3DF9B3AD28318586002EDFB5 /* LogInInteractorProtocol.swift */,
+				3DF9B3AC28318586002EDFB5 /* LogInPresenterProtocol.swift */,
+				3DF9B3AB28318586002EDFB5 /* LogInRouterProtocol.swift */,
+				3DF9B3AF28318586002EDFB5 /* LogInConfiguratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DF9B3BD28318586002EDFB5 /* ExamList-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3C828318586002EDFB5 /* ExamListViewController.swift */,
+				3DF9B3BF28318586002EDFB5 /* ExamListInteractor.swift */,
+				3DF9B3BE28318586002EDFB5 /* ExamListPresenter.swift */,
+				3DF9B3C028318586002EDFB5 /* ExamListRouter.swift */,
+				3DF9B3C128318586002EDFB5 /* ExamListConfigurator.swift */,
+				3DF9B3C228318586002EDFB5 /* protocols */,
+			);
+			path = "ExamList-Module";
+			sourceTree = "<group>";
+		};
+		3DF9B3C228318586002EDFB5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3C328318586002EDFB5 /* ExamListConfiguratorProtocol.swift */,
+				3DF9B3C428318586002EDFB5 /* ExamListInteractorProtocol.swift */,
+				3DF9B3C528318586002EDFB5 /* ExamListRouterProtocol.swift */,
+				3DF9B3C628318586002EDFB5 /* ExamListPresenterProtocol.swift */,
+				3DF9B3C728318586002EDFB5 /* ExamListViewProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3DF9B3C928318586002EDFB5 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B3CA28318586002EDFB5 /* MessageEntity.swift */,
+				3DF9B3CB28318586002EDFB5 /* Teacher.swift */,
+				3DF9B3CC28318586002EDFB5 /* Discipline.swift */,
+				3DF9B3CD28318586002EDFB5 /* Ticket.swift */,
+				3DF9B3CE28318586002EDFB5 /* Exam.swift */,
+				3DF9B3CF28318586002EDFB5 /* Account.swift */,
+				3DF9B3D028318586002EDFB5 /* Student.swift */,
+				3DBDADAD284D4CF00091CFA8 /* Group.swift */,
+				3D0804A32854607100BB86C7 /* Answer.swift */,
+				3DB1EB932854C51F00F6988A /* Task.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		3DF9B4182832E2F5002EDFB5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3DF9B41A2832E346002EDFB5 /* ExamButton.swift */,
+				3DF9B41D2832E366002EDFB5 /* ExamButton.xib */,
+				3D08049F2852D84100BB86C7 /* CloudTagView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +764,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF9B37D2831848D002EDFB5 /* Build configuration list for PBXNativeTarget "GraduteThesis" */;
 			buildPhases = (
+				3D5624BA4124E53D8026A0C4 /* [CP] Check Pods Manifest.lock */,
+				3DF9B4092831863E002EDFB5 /* ShellScript */,
 				3DF9B34F2831848A002EDFB5 /* Sources */,
 				3DF9B3502831848A002EDFB5 /* Frameworks */,
 				3DF9B3512831848A002EDFB5 /* Resources */,
+				25D8D7CCAF95FE974B5688F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GraduteThesis;
+			packageProductDependencies = (
+			);
 			productName = GraduteThesis;
 			productReference = 3DF9B3532831848A002EDFB5 /* GraduteThesis.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +786,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF9B3802831848D002EDFB5 /* Build configuration list for PBXNativeTarget "GraduteThesisTests" */;
 			buildPhases = (
+				083C9754A6C61A6D29E72504 /* [CP] Check Pods Manifest.lock */,
 				3DF9B3652831848D002EDFB5 /* Sources */,
 				3DF9B3662831848D002EDFB5 /* Frameworks */,
 				3DF9B3672831848D002EDFB5 /* Resources */,
@@ -169,9 +805,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF9B3832831848D002EDFB5 /* Build configuration list for PBXNativeTarget "GraduteThesisUITests" */;
 			buildPhases = (
+				5E67BE41133D0B0D17F46C87 /* [CP] Check Pods Manifest.lock */,
 				3DF9B36F2831848D002EDFB5 /* Sources */,
 				3DF9B3702831848D002EDFB5 /* Frameworks */,
 				3DF9B3712831848D002EDFB5 /* Resources */,
+				8F07D3712B24E911F580135E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +853,8 @@
 				Base,
 			);
 			mainGroup = 3DF9B34A2831848A002EDFB5;
+			packageReferences = (
+			);
 			productRefGroup = 3DF9B3542831848A002EDFB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +871,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF9B3D228318586002EDFB5 /* ExamTableViewCell.xib in Resources */,
 				3DF9B3632831848C002EDFB5 /* LaunchScreen.storyboard in Resources */,
+				3DF9B4152832DDA6002EDFB5 /* AnswerTableViewCell.xib in Resources */,
 				3DF9B3602831848C002EDFB5 /* Assets.xcassets in Resources */,
 				3DF9B35E2831848A002EDFB5 /* Main.storyboard in Resources */,
+				3DF9B41E2832E366002EDFB5 /* ExamButton.xib in Resources */,
+				3DBDAD45284BA39C0091CFA8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +897,248 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083C9754A6C61A6D29E72504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraduteThesisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D8D7CCAF95FE974B5688F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis/Pods-GraduteThesis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis/Pods-GraduteThesis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis/Pods-GraduteThesis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D5624BA4124E53D8026A0C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraduteThesis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF9B4092831863E002EDFB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$SRCROOT/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		5E67BE41133D0B0D17F46C87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraduteThesis-GraduteThesisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F07D3712B24E911F580135E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis-GraduteThesisUITests/Pods-GraduteThesis-GraduteThesisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis-GraduteThesisUITests/Pods-GraduteThesis-GraduteThesisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraduteThesis-GraduteThesisUITests/Pods-GraduteThesis-GraduteThesisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DF9B34F2831848A002EDFB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF9B35B2831848A002EDFB5 /* ViewController.swift in Sources */,
+				3DF9B40628318587002EDFB5 /* Exam.swift in Sources */,
+				3DF9B3DF28318586002EDFB5 /* AuthApiDelegate.swift in Sources */,
+				3DBDAD70284D17E70091CFA8 /* AlterExamPresenter.swift in Sources */,
+				3DF9B3FE28318587002EDFB5 /* ExamListRouterProtocol.swift in Sources */,
+				3DBDAD79284D18380091CFA8 /* AlterExamInteractorProtocol.swift in Sources */,
+				3DBDAD72284D17FF0091CFA8 /* AlterExamRouter.swift in Sources */,
+				3DF9B3DD28318586002EDFB5 /* AnyError.swift in Sources */,
+				3D0804AA2854B56B00BB86C7 /* AnswerApiDelegate.swift in Sources */,
+				3DF9B3F828318587002EDFB5 /* ExamListPresenter.swift in Sources */,
+				3DBDAD90284D19160091CFA8 /* AnswersPresenterProtocol.swift in Sources */,
+				3DBDADC6284D5E450091CFA8 /* PickerPopUpRouterProtocol.swift in Sources */,
+				3DBDAD8C284D18FB0091CFA8 /* AnswersViewProtocol.swift in Sources */,
+				3D09CB2B2854D0590036868C /* R.generated.swift in Sources */,
+				3DF9B3E828318586002EDFB5 /* LogInRouterProtocol.swift in Sources */,
+				3D0804A02852D84100BB86C7 /* CloudTagView.swift in Sources */,
+				3DF9B3D128318586002EDFB5 /* ExamTableViewCell.swift in Sources */,
+				3DF9B3E128318586002EDFB5 /* SocketClient.swift in Sources */,
+				3DF9B3ED28318587002EDFB5 /* LogInRouter.swift in Sources */,
+				3DBDAD57284D15940091CFA8 /* AddExamViewController.swift in Sources */,
+				3DF9B3FF28318587002EDFB5 /* ExamListPresenterProtocol.swift in Sources */,
+				3DBDAD99284D2D100091CFA8 /* DatePickerPopUpInteractor.swift in Sources */,
+				3DBDAD66284D16030091CFA8 /* AddExamInteractorProtocol.swift in Sources */,
+				3DF9B40428318587002EDFB5 /* Discipline.swift in Sources */,
+				3DBDAD7D284D18540091CFA8 /* AlterExamRouterProtocol.swift in Sources */,
+				3DF9B3DC28318586002EDFB5 /* APIClient.swift in Sources */,
+				3DF9B35B2831848A002EDFB5 /* ShareViewController.swift in Sources */,
+				3DBDADC9284D5E450091CFA8 /* PickerDelegate.swift in Sources */,
+				3DBDADAA284D2DA00091CFA8 /* DatePickerPopUpConfiguratorProtocol.swift in Sources */,
+				3DB1EB942854C51F00F6988A /* Task.swift in Sources */,
+				3DBDADC4284D5E450091CFA8 /* PickerPopupViewControllerProtocol.swift in Sources */,
+				3DF9B40728318587002EDFB5 /* Account.swift in Sources */,
+				3DBDADA4284D2D5A0091CFA8 /* DatePickerPopUpInteractorProtocol.swift in Sources */,
+				3DBDADA2284D2D4B0091CFA8 /* DatePickerPopupViewControllerProtocol.swift in Sources */,
+				3DBDAD74284D18100091CFA8 /* AlterExamConfigurator.swift in Sources */,
+				3DBDADC8284D5E450091CFA8 /* PickerPopUpConfiguratorProtocol.swift in Sources */,
+				3DBDADC7284D5E450091CFA8 /* PickerPopUpPresenterProtocol.swift in Sources */,
+				3DBDAD81284D187C0091CFA8 /* AnswersViewController.swift in Sources */,
+				3DBDADC1284D5E450091CFA8 /* PickerPopUpRouter.swift in Sources */,
+				3DBDAD9B284D2D1B0091CFA8 /* DatePickerPopUpPresenter.swift in Sources */,
+				3DBDADB0284D4D710091CFA8 /* AddExamApiModule.swift in Sources */,
+				3DBDAD9D284D2D2A0091CFA8 /* DatePickerPopUpRouter.swift in Sources */,
+				3DBDAD60284D15D70091CFA8 /* AddExamConfigurator.swift in Sources */,
+				3DF9B3E528318586002EDFB5 /* LogInConfigurator.swift in Sources */,
+				3DBDADA6284D2D700091CFA8 /* DatePickerPopUpPresenterProtocol.swift in Sources */,
+				3DF9B3DE28318586002EDFB5 /* ResponseMessage.swift in Sources */,
+				3DBDADC5284D5E450091CFA8 /* PickerPopUpInteractorProtocol.swift in Sources */,
+				3DBDAD97284D2CFC0091CFA8 /* DatePickerPopupViewController.swift in Sources */,
+				3DF9B3DA28318586002EDFB5 /* ResponseType.swift in Sources */,
+				3DBDAD64284D15F50091CFA8 /* AddExamRouterProtocol.swift in Sources */,
+				3DBDAD7B284D18490091CFA8 /* AlterExamPresenterProtocol.swift in Sources */,
+				3DF9B3EA28318587002EDFB5 /* LogInInteractorProtocol.swift in Sources */,
+				3DBDAD6C284D17BB0091CFA8 /* AlterExamViewController.swift in Sources */,
+				3DF9B3E328318586002EDFB5 /* StringExtension.swift in Sources */,
+				3DBDAD68284D16130091CFA8 /* AddExamPresenterProtocol.swift in Sources */,
+				3DBDADAC284D31DB0091CFA8 /* DatePickerDelegate.swift in Sources */,
+				3DF9B40528318587002EDFB5 /* Ticket.swift in Sources */,
+				3DBDADC0284D5E450091CFA8 /* PickerPopUpConfigurator.swift in Sources */,
+				3DF9B3D328318586002EDFB5 /* StorageManager.swift in Sources */,
+				3DBDADA8284D2D7E0091CFA8 /* DatePickerPopUpRouterProtocol.swift in Sources */,
+				3DBDAD6A284D16240091CFA8 /* AddExamViewProtocol.swift in Sources */,
+				3DF9B3E428318586002EDFB5 /* LogInInteractor.swift in Sources */,
+				3DBDAD77284D18290091CFA8 /* AlterExamViewProtocol.swift in Sources */,
+				3DBDADC3284D5E450091CFA8 /* PickerPopupViewController.swift in Sources */,
+				3DF9B41B2832E346002EDFB5 /* ExamButton.swift in Sources */,
+				3D0804A82854B51900BB86C7 /* AnswerApiModule.swift in Sources */,
+				3DBDAD94284D192F0091CFA8 /* AnswersConfiguratorProtocol.swift in Sources */,
+				3DF9B3D828318586002EDFB5 /* RequestInit.swift in Sources */,
+				3DBDAD59284D15A30091CFA8 /* AddExamPresenter.swift in Sources */,
+				3DBDAD5D284D15C00091CFA8 /* AddExamRouter.swift in Sources */,
+				3DBDAD87284D18BD0091CFA8 /* AnswersRouter.swift in Sources */,
+				3DF9B3FD28318587002EDFB5 /* ExamListInteractorProtocol.swift in Sources */,
+				3DF9B3E228318586002EDFB5 /* UIViewExtension.swift in Sources */,
+				3DF9B3DB28318586002EDFB5 /* ImageUploader.swift in Sources */,
+				3DF9B3E928318587002EDFB5 /* LogInPresenterProtocol.swift in Sources */,
+				3DF9B3D628318586002EDFB5 /* RequestManager.swift in Sources */,
+				3DBDAD89284D18CA0091CFA8 /* AnswersConfigurator.swift in Sources */,
+				3DBDAD62284D15E70091CFA8 /* AddExamConfiguratorProtocol.swift in Sources */,
+				3DF9B3FC28318587002EDFB5 /* ExamListConfiguratorProtocol.swift in Sources */,
+				3DBDAD83284D18A70091CFA8 /* AnswersInteractor.swift in Sources */,
 				3DF9B3572831848A002EDFB5 /* AppDelegate.swift in Sources */,
 				3DF9B3592831848A002EDFB5 /* SceneDelegate.swift in Sources */,
+				3DBDADAE284D4CF10091CFA8 /* Group.swift in Sources */,
+				3DBDAD7F284D18610091CFA8 /* AlterExamConfiguratorProtocol.swift in Sources */,
+				3DF9B3F928318587002EDFB5 /* ExamListInteractor.swift in Sources */,
+				3DF9B3D428318586002EDFB5 /* KeyConstants.swift in Sources */,
+				3DF9B40028318587002EDFB5 /* ExamListViewProtocol.swift in Sources */,
+				3DF9B4142832DDA6002EDFB5 /* AnswerTableViewCell.swift in Sources */,
+				3DBDAD92284D19220091CFA8 /* AnswersRouterProtocol.swift in Sources */,
+				3DF9B3EC28318587002EDFB5 /* LogInConfiguratorProtocol.swift in Sources */,
+				3DBDADCA284D5E450091CFA8 /* PickerPopUpInteractor.swift in Sources */,
+				3D0804A42854607300BB86C7 /* Answer.swift in Sources */,
+				3DF9B3EB28318587002EDFB5 /* LogInViewProtocol.swift in Sources */,
+				3DBDAD42284B96560091CFA8 /* UIViewControllerExtension.swift in Sources */,
+				3DBDAD8E284D190A0091CFA8 /* AnswersInteractorProtocol.swift in Sources */,
+				3DBDADC2284D5E450091CFA8 /* PickerPopUpPresenter.swift in Sources */,
+				3DBDAD6E284D17D30091CFA8 /* AlterExamInteractor.swift in Sources */,
+				3DF9B40228318587002EDFB5 /* MessageEntity.swift in Sources */,
+				3DBDAD5B284D15B40091CFA8 /* AddExamInteractor.swift in Sources */,
+				3DBDAD50284CE3E00091CFA8 /* ExamApiModule.swift in Sources */,
+				3DF9B3D528318586002EDFB5 /* MainData.swift in Sources */,
+				3D6E93292847C8BA00C4674A /* TaskAnswerViewController.swift in Sources */,
+				3DF9B3E628318586002EDFB5 /* LogInViewController.swift in Sources */,
+				3DBDAD52284CE4B20091CFA8 /* ExamApiDelegate.swift in Sources */,
+				3DF9B3FB28318587002EDFB5 /* ExamListConfigurator.swift in Sources */,
+				3DF9B3D928318586002EDFB5 /* DataType.swift in Sources */,
+				3DBDADB2284D4D7E0091CFA8 /* AddExamApiDelegate.swift in Sources */,
+				3DF9B3FA28318587002EDFB5 /* ExamListRouter.swift in Sources */,
+				3DF9B40128318587002EDFB5 /* ExamListViewController.swift in Sources */,
+				3DF9B3E728318586002EDFB5 /* LogInPresenter.swift in Sources */,
+				3DF9B3E028318586002EDFB5 /* RequestDelegate.swift in Sources */,
+				3DBDAD9F284D2D340091CFA8 /* DatePickerPopUpConfigurator.swift in Sources */,
+				3DF9B40828318587002EDFB5 /* Student.swift in Sources */,
+				3DBDAD85284D18B40091CFA8 /* AnswersPresenter.swift in Sources */,
+				3DF9B3D728318586002EDFB5 /* AuthApiModule.swift in Sources */,
+				3DF9B40328318587002EDFB5 /* Teacher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +1310,14 @@
 		};
 		3DF9B37E2831848D002EDFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD884FE71E2853E885E14B4F /* Pods-GraduteThesis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraduteThesis/GraduteThesis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6JV2JT4Z4Z;
+				DEVELOPMENT_TEAM = UQDAQR22GK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GraduteThesis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +1330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NETI.GraduteThesis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NETI.GraduteThesis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,12 +1340,14 @@
 		};
 		3DF9B37F2831848D002EDFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D40B48B061B77D86C8DFD0D /* Pods-GraduteThesis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraduteThesis/GraduteThesis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6JV2JT4Z4Z;
+				DEVELOPMENT_TEAM = UQDAQR22GK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GraduteThesis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +1360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NETI.GraduteThesis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NETI.GraduteThesis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +1370,7 @@
 		};
 		3DF9B3812831848D002EDFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A428D77C98B32AE3A849F1 /* Pods-GraduteThesisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1391,7 @@
 		};
 		3DF9B3822831848D002EDFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87348D2879910E008DF16550 /* Pods-GraduteThesisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1412,7 @@
 		};
 		3DF9B3842831848D002EDFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D070605CCA90F45AA479DC29 /* Pods-GraduteThesis-GraduteThesisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1431,7 @@
 		};
 		3DF9B3852831848D002EDFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E9B0A60BF4316A0318CCF5 /* Pods-GraduteThesis-GraduteThesisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

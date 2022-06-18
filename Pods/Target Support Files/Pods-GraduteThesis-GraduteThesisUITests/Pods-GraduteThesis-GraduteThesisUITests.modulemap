@@ -1,0 +1,6 @@
+framework module Pods_GraduteThesis_GraduteThesisUITests {
+  umbrella header "Pods-GraduteThesis-GraduteThesisUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
